@@ -34,19 +34,19 @@ class _ShowcaseHomePageState extends State<ShowcaseHomePage>
   final Map<String, Map<String, dynamic>> apps = {
     'QuickChat': {
       'desc': 'Clean and responsive messaging UI.',
-      'images': List.generate(3, (i) => 'images/${i + 1}.jpg'),
+      'images': List.generate(3, (i) => 'assets/images/${i + 1}.jpg'),
     },
     'finly': {
       'desc': 'Finance tracking with charts and expenses.',
-      'images': List.generate(7, (i) => 'images/${i + 4}.jpg'),
+      'images': List.generate(7, (i) => 'assets/images/${i + 4}.jpg'),
     },
     'FitTrack': {
       'desc': 'Health & fitness dashboard and progress.',
-      'images': List.generate(7, (i) => 'images/${i + 11}.jpg'),
+      'images': List.generate(7, (i) => 'assets/images/${i + 11}.jpg'),
     },
     'HireMe': {
       'desc': 'Job listings and hiring flows.',
-      'images': List.generate(13, (i) => 'images/${i + 18}.jpg'),
+      'images': List.generate(13, (i) => 'assets/images/${i + 18}.jpg'),
     },
   };
 
